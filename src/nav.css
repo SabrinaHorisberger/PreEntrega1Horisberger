@@ -1,0 +1,44 @@
+nav {
+    background-color: #918b7a;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 20px;
+    float: left;
+    position: relative;
+    float: right;
+    font-family: "Open Sans", sans-serif;
+    
+
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+
+  
+    
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+    
+}
+
+.logo{
+    width: 4%;
+}
+
+.Saludo{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 500px;
+    color: brown;
+
+}
