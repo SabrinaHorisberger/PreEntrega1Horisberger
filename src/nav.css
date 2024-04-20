@@ -2,7 +2,10 @@ nav {
     background-color: #918b7a;
     padding: 10px;
     border-radius: 5px;
-   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 nav ul{
@@ -41,4 +44,11 @@ nav ul li a {
     margin-left: 500px;
     color: brown;
 
+}
+
+.card{
+    margin-right: 30px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: flex-end;
 }

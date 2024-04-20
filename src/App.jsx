@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Menu/>
-      <ItemListContainer/>
+      <ItemListContainer nombre= {"Master Shop"}/>
       
     </div>
   )

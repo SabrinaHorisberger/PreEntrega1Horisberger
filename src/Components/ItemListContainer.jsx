@@ -1,5 +1,13 @@
-function ItemListContainer() {
-    return <h1 class = "Saludo"> Welcome to our Pantenol Shop! </h1>;
+
+
+
+function ItemListContainer({nombre}) {
+
+    return(
+    <div class = "Saludo"> 
+        <h1>Hola bienvenido a {nombre}</h1>
+    </div>
+    )
 }
 
 export default ItemListContainer;
