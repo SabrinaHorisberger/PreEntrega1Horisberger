@@ -1,0 +1,18 @@
+.item-lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 95px; 
+    margin-top: 60px;
+    margin-right: 3px;
+  
+  }
+  .hold{
+   text-align: center;
+   size: 100px;
+   margin-top: 50px;
+   font-family: "Cabin", sans-serif;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   color: red;
+   
+  }

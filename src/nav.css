@@ -1,11 +1,13 @@
 nav {
-    background-color: #918b7a;
+    background: linear-gradient(to right, #fd6a45, #4a4b4a);
     padding: 10px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0.3, 0.5);
+    
 }
 
 nav ul{
@@ -15,7 +17,7 @@ nav ul{
     float: left;
     position: relative;
     float: right;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cabin", sans-serif;
     
 
 }
@@ -24,14 +26,12 @@ nav ul li{
     display: inline;
     margin-right: 10px;
 
-  
-    
-
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(248, 246, 246);
     text-decoration:none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -39,12 +39,6 @@ nav ul li a {
     width: 4%;
 }
 
-.Saludo{
-    font-family: "Open Sans", sans-serif;
-    margin-left: 500px;
-    color: brown;
-
-}
 
 .card{
     margin-right: 30px;

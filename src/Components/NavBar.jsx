@@ -1,17 +1,19 @@
 import "../nav.css";
-import Logo from "../../public/icono.png";
+import Logo from "../../public/iconoDos.png";
 import CartWiget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
     <nav>
-      <img class="logo" src={Logo} alt="" />
+      <img className="logo" src={Logo} alt="logo" />
+
       <ul>
         <li>
-          <a href="#">Hi there</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Shop</a>
+          <Link to="/products"> Products </Link>
         </li>
         <li>
           <a href="#">About us</a>
@@ -20,7 +22,7 @@ const Menu = () => {
           <a href="#">Contact us</a>{" "}
         </li>
       </ul>
-      <div ClassName= "card">
+      <div className="card">
         <CartWiget />
       </div>
     </nav>

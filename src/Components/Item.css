@@ -1,0 +1,61 @@
+.welcome{
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(71, 73, 73);
+
+}
+
+.products-list-heading {
+    text-align: center;
+     margin-top: 50px;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(71, 73, 73);
+    
+  }
+
+  .stayTuned{
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 90px;
+   font-family: "Cabin", sans-serif;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   color: rgb(71, 73, 73)
+  }
+  
+  
+  .item-card {
+    margin-bottom: 16px;
+    width: 230px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 10px;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Cabin", sans-serif;
+  }
+  
+ .item-image {
+    align-self: center;
+    width: 90%;
+    border-radius: 20px;
+  }
+  
+ .item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .item-name {
+    margin-top: 0;
+  }
+  
+  .item-price {
+    color: whites;
+    margin-top: 5px;
+  }
+  
