@@ -1,11 +1,16 @@
-.shopcart{
+.shopcart {
     color: rgba(155, 31, 31, 0.808);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
 }
-.counter{
+
+.counter {
+    background-color: red;
     color: white;
-    position: relative;
+    position: absolute;
     top: -10px;
-    font-family: "Cabin", sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    right: -10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
 }

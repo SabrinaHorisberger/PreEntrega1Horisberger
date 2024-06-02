@@ -1,4 +1,4 @@
-import "../nav.css";
+import "./nav.css";
 import Logo from "../../public/iconoDos.png";
 import CartWiget from "./CartWidget";
 import { Link } from "react-router-dom";
