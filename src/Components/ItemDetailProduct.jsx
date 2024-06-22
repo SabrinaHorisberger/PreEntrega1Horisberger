@@ -2,8 +2,9 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect, useContext } from "react";
 import { doc, getDoc } from "firebase/firestore"; 
 import { db } from "../firebase";
-import ItemDetail from './ItemDetail';
 import { CartContext } from './CartContext';
+import './Item.css';
+
 
 async function fetchProductById(id) {
     const docRef = doc(db, "mockItem", id);
@@ -39,10 +40,18 @@ function ItemDetailProduct() {
   };
 
   return (
-    <div>
-      <h1>{item.name}</h1>
-      <p>{item.description}</p>
-  </div>
+    <div className="container">
+      <div className="row">
+          <div className="col-md-4">
+          <img src={item.imageUrl} alt={item.name} className="item-image22" />
+          </div>
+          <div className="col-md-4">
+          <h1 className="products-list-heading">{item.name}</h1>
+          <h1 className="products-list-heading">${item.price}</h1>
+          <p className="stayTuned">{item.description}</p>
+       </div>
+      </div>
+   </div>
   );
 }
 

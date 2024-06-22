@@ -1,9 +1,6 @@
-
 import { useState, useEffect } from "react";
+import ItemDetail from "./ItemDetail";
 
-
-
-  
 const fetchImtems = () => {
     return new Promise ((resolve) => {
         setTimeout(() => {
@@ -15,7 +12,6 @@ const fetchImtems = () => {
  
 const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
-    
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

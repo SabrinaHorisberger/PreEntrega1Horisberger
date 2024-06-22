@@ -6,7 +6,10 @@
     color: rgb(71, 73, 73);
 
 }
-
+.japan-img{
+  padding-top: 20px;
+  width: 600px;
+}
 .products-list-heading {
     text-align: center;
      margin-top: 50px;
@@ -57,5 +60,12 @@
   .item-price {
     color: whites;
     margin-top: 5px;
+  }
+
+  .item-image22{
+    width: 20%;
+    align-self: center;
+    padding-left: 40%;
+    padding-top: 5%;
   }
   
