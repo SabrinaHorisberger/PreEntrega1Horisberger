@@ -1,3 +1,3 @@
 # Coderhouse
 ## Curso de React JS
-### Proyecto Finak
+### Proyecto Final

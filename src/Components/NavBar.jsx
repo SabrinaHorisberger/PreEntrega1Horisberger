@@ -14,10 +14,7 @@ const Menu = () => {
           <li>
             <Link to="/products"> Products </Link>
           </li>
-          <li>
-            <a href="contact">Contact us</a>{" "}
-          </li>
-      </ul>
+       </ul>
       <div className="card">
          <CartWiget />
       </div>
